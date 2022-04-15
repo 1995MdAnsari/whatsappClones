@@ -1,0 +1,66 @@
+.details{
+    border-top: 0.2px solid rgb(220, 220, 220);
+    border-bottom: 0.1px solid rgb(220, 220, 220);
+    border-left: none;
+    border-right: none;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow-y: auto;
+    /* height: 100%; */
+}
+
+.details:hover{
+    cursor: pointer;
+    background-color: #ededed;
+}
+
+.contactItem{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px;
+}
+.profileImg img{
+    border-radius: 80%;
+    width: 50px;
+    height: 50px;
+}
+.names{
+    margin-left:10px;
+    /* font-family: sans-serif; */
+    font-size: 14px;
+    float: left;
+}
+.userName{
+    float: left;
+    font-weight: bold;
+}
+
+.lastMsg{
+    color: rgba(0, 0, 0, 0.6);
+}
+.date{
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 13px;
+}
+
+.seenMsg{
+    border-radius: 50%;
+    background-color:#25D366;
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+
+.seenMsg p{
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
